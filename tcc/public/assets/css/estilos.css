@@ -1,0 +1,145 @@
+body {
+    min-width: 372px;
+}
+
+.gin-1 {
+    height: 219px;
+    margin-left: -20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+.bg {
+    background-color: #FF9052;
+}
+
+.banner {
+    height: 350px;
+    width: 100%;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.cervejas {
+    padding-top: 20px;
+}
+
+
+.btn-busca {
+    background-color: #808080;
+    border: 2px solid #FF9052;
+    border: none;
+}
+
+#btn-msg {
+    background-color: #808080;
+}
+
+#btn-msg:hover {
+    background-color: #FF9052;
+}
+
+#btn-cart {
+    background-color: #808080;
+}
+
+#btn-cart:hover {
+    background-color: #FF9052;
+}
+
+#txt-prod {
+    color: red;
+}
+
+.btn-busca:hover {
+    background-color: #FF9052;
+}
+
+.btn:hover {
+    background-color: #FF9052;
+}
+
+p.truncar-3l {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 469px) {
+    .mt-xs-3 {
+        margin-top: 1rem;
+    }
+}
+
+label:hover .text-dark {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+label .text-dark {
+    transition: color 0.2s ease;
+}
+
+.btn-check:checked+.btn-outline-danger .text-dark,
+.btn-check:active+.btn-outline-danger .text-dark,
+.btn-check:hover+.btn-outline-danger .text-dark {
+    transition: color 0.2s ease;
+    color: white !important;
+}
+
+.flex-even {
+    flex: 1;
+    min-width: 300px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #FF9052;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+fieldset.row .form-floating>label {
+    margin-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.gin {
+    height: 219px;
+}
+
+.gin-1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#carouselMain {
+    color: #FF9052;
+}
+
+.carrinho {
+    background-color: #FF9052;
+    height: 55px;
+    width: 55px;
+    align-items: center;
+    padding-bottom: -10px;
+}
+
+.texto {
+    margin-top: 15px;
+}
